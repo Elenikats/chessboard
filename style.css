@@ -83,4 +83,11 @@ input:checked + label > .chessboard, input:checked +label > .chessboard > div p 
     font-size: 3rem;
 }
 
+/* hovering the blocks */
+
+.black:hover, .white:hover {
+    background-color: rgb(196, 221, 245);
+    box-shadow: 2px 2px 3px 2px;
+}
+
 
